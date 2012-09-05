@@ -20,6 +20,7 @@ public:
 	void update();
 	void addScore(int type,int score);
 	void setRandomScore();
+	void clearScore();
 	bool getTrigger();
 	
 	float pos;

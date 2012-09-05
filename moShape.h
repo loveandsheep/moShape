@@ -7,7 +7,11 @@
 //
 
 #include "ofMain.h"
+#include "transitionlayer.h"
 
 class moShape{
+public:
+	moShape();
+	~moShape();
 	
 };

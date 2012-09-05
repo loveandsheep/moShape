@@ -8,3 +8,10 @@
 
 #include "moShape.h"
 
+moShape::moShape(){
+	
+}
+
+moShape::~moShape(){
+	
+}

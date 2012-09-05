@@ -33,6 +33,8 @@ void transitionlayer::setHead(){
 }
 
 void transitionlayer::update(){
+	if (scores.size() < 1) return;
+	
 	float pct = (ofGetElapsedTimeMillis() - cur_milli) / ((float)scores[cur_sc]*easer.bpm_millisec/16.0);
 	if (pct < 0){
 		pct = 0;
@@ -92,4 +94,9 @@ void transitionlayer::setRandomScore(){
 			total += scores[i];
 		}
 	}
+}
+
+void transitionlayer::clearScore(){
+	scores.clear();
+	types.clear();
 }
