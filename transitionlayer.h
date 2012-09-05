@@ -19,6 +19,8 @@ public:
 	void setHead();
 	void update();
 	void addScore(int type,int score);
+	void setRandomScore();
+	bool getTrigger();
 	
 	float pos;
 	simpleEase easer;
@@ -31,4 +33,6 @@ public:
 	int cur_sc;
 	int cur_milli;
 	int head_milli;
+	
+	int lastScore;
 };

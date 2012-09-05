@@ -27,7 +27,7 @@ public:
 	int bpm_millisec;
 	int tempo_head;
 	
-	
+
 	lutCurve lut_ease_in;
 	lutCurve lut_ease_out;
 	lutCurve lut_middle_dash;
